@@ -9,7 +9,7 @@ public class DiceRoller
         int dienumber;
         Random rnd = new Random ();
         
-        dienumber = 1 + rnd.nextInt(6);
+        dienumber = 1 + rnd.nextInt(7);
         
         System.out.println("Your die roll was : " + dienumber);
     }
